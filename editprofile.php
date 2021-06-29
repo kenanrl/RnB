@@ -13,11 +13,11 @@ if (!isset($_SESSION['username'])) {
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style-rent.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Home</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style-ep.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <title>Rent</title>
 </head>
 
 <body>
@@ -31,13 +31,13 @@ if (!isset($_SESSION['username'])) {
                 <div class="logo"><a href="welcome.php">R&B</a></div>
                 <ul class="links">
                     <li><a href="rent.php">Rent</a>
-                        <ul>
+                    <ul>
                             <li><a style="font-size: 15px;" href="add-item.php">Add Item</a></li>
                             <li><a style="font-size: 15px;" href="rent.php">Rent Item</a></li>
                         </ul>
                     </li>
                     <li><a href="borrow.php">Borrow</a>
-                        <ul>
+                    <ul>
                             <li><a style="font-size: 15px;" href="borrow.php">Borrow Item</a></li>
                         </ul>
                     </li>

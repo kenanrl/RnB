@@ -16,7 +16,7 @@ if (!isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Borrow</title>
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 </head>
 
@@ -44,7 +44,7 @@ if (!isset($_SESSION['username'])) {
                     <li>
                         <a href="#"><i class="far fa-user-circle"></i> <?php echo "" . $_SESSION['username'] . ""; ?></a>
                         <ul>
-                            <li><a style="font-size: 15px;" href="#">Edit Profile</a></li>
+                            <li><a style="font-size: 15px;" href="editprofile.php">Edit Profile</a></li>
                             <li><a style="font-size: 15px;" href="logout.php">Logout</a></li>
                         </ul>
                     </li>
