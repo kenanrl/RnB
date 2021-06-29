@@ -28,10 +28,19 @@ if (!isset($_SESSION['username'])) {
             <input type="checkbox" id="show-menu">
             <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
             <div class="content">
-                <div class="logo"><a href="#">R&B</a></div>
+                <div class="logo"><a href="welcome.php">R&B</a></div>
                 <ul class="links">
-                    <li><a href="#">Rent</a></li>
-                    <li><a href="#">Borrow</a></li>
+                    <li><a href="rent.php">Rent</a>
+                    <ul>
+                            <li><a style="font-size: 15px;" href="add-item.php">Add Item</a></li>
+                            <li><a style="font-size: 15px;" href="rent.php">Rent Item</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Borrow</a>
+                    <ul>
+                            <li><a style="font-size: 15px;" href="#">Borrow Item</a></li>
+                        </ul>
+                    </li>
                     <li>
                         <a href="#"><i class="far fa-user-circle"></i> <?php echo "" . $_SESSION['username'] . ""; ?></a>
                         <ul>
