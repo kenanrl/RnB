@@ -42,7 +42,7 @@ if (!isset($_SESSION['username'])) {
                         </ul>
                     </li>
                     <li>
-                        <a href="#"><i class="far fa-user-circle"></i> <?php echo "" . $_SESSION['username'] . ""; ?></a>
+                        <a href="editprofile.php"><i class="far fa-user-circle"></i> <?php echo "" . $_SESSION['username'] . ""; ?></a>
                         <ul>
                             <li><a style="font-size: 15px;" href="editprofile.php">Edit Profile</a></li>
                             <li><a style="font-size: 15px;" href="logout.php">Logout</a></li>
